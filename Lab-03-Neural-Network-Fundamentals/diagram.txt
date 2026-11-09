@@ -1,0 +1,8 @@
+Input Layer     Hidden Layer     Output Layer
+  (3 nodes)       (4 nodes)        (2 nodes)
+    [I1]----      [H1]----
+    [I2]----      [H2]----
+    [I3]----      [H3]----
+                 [H4]----
+                             ---->[O1]
+                             ---->[O2]

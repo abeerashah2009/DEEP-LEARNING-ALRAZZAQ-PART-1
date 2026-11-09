@@ -1,0 +1,13 @@
+Lab 05 - Activation Functions
+Training Results (30 Epochs)
+
+relu: first loss=4.7862 final loss=2.3620
+sigmoid: first loss=4.8492 final loss=3.2848
+tanh: first loss=4.8054 final loss=2.3355
+
+activation  loss@epoch5  final_loss
+relu             4.5049      2.3620
+sigmoid          4.5965      3.2848
+tanh             4.5067      2.3355
+
+Lowest final loss: tanh

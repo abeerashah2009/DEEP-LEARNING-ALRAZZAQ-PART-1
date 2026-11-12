@@ -1,0 +1,5 @@
+Final epoch results
+model          train_acc   val_acc     gap
+no dropout        0.9796    0.9651  0.0145
+dropout           0.9540    0.9645 -0.0105
+Smaller train/validation gap: dropout

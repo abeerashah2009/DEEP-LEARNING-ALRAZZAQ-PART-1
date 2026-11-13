@@ -1,0 +1,16 @@
+LAB 18: TEXT GENERATION WITH RNNs
+Training corpus: Alice's Adventures in Wonderland
+Unique characters: 48
+Training sequences: 9967
+Sequence length: 100
+Step: 3
+LSTM units: 128
+Total parameters: 96816
+Training epochs: 10
+Final training loss (first run): 2.2963
+
+--- temperature 0.2 (length 300) ---
+[illustration]     alice’s adventures in wonderland  by lewis carroll  the millennium fulcrum editio the she the she the she the soull the she the the the the she she the sat the sout the the the the sout the she the sout the the the the sous the the she sous the sous the sout the the the sout the t
+
+--- temperature 0.8 (length 300) ---
+[illustration]     alice’s adventures in wonderland  by lewis carroll  the millennium fulcrum edition at  ap cering iolle, dimunong rikil satsol thowle the wis sueglisg iteer, thenn, an shee ,oid the . nots, the  uthe berng wnit eas ab the pihe sibe poud t oumed rtetle badd it theanlit bouy ir worli

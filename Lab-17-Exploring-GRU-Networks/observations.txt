@@ -1,0 +1,52 @@
+GRU vs LSTM - Experimental Observations
+=======================================
+
+Dataset:
+- 1,000 time-series records.
+- Sine wave with random noise.
+- Training data: first 80%.
+- Testing data: last 20%.
+- Sequence length: 50.
+- Random seed: 42.
+
+GRU Model:
+- Two GRU layers.
+- 50 units in each layer.
+- Total parameters: 23,301.
+- Training epochs: 10.
+- Batch size: 64.
+- Final training loss: approximately 0.0027.
+- Final validation loss: approximately 0.0023.
+- Test loss: 0.00226.
+- Training time: 14.1 seconds.
+
+LSTM Model:
+- Two LSTM layers.
+- 50 units in each layer.
+- Total parameters: 30,651.
+- Training epochs: 10.
+- Batch size: 64.
+- Final training loss: approximately 0.0021.
+- Final validation loss: approximately 0.0019.
+- Test loss: 0.00193.
+- Training time: 12.5 seconds.
+
+Observations:
+1. Both models successfully learned the time-series pattern.
+2. Both models showed decreasing training and validation losses.
+3. LSTM achieved a lower test loss than GRU in this experiment.
+4. GRU used fewer trainable parameters than LSTM.
+5. LSTM trained faster in this particular run.
+6. GRU can be a useful choice when a smaller model is preferred.
+7. LSTM can be useful when its additional memory capability improves sequence learning.
+
+Conclusion:
+Both GRU and LSTM are effective recurrent neural network
+architectures for sequence modeling. In this experiment,
+LSTM achieved better test accuracy, while GRU used fewer
+parameters. The best choice depends on the dataset,
+accuracy requirements, model size, and computational cost.
+
+Note:
+Parameter counts and training times are based on the
+installed Keras 3 implementation and this EC2 CPU environment.

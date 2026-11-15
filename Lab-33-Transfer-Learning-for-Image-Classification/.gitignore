@@ -1,0 +1,13 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Flower dataset (large files)
+data/
+flower_photos.tgz
+
+# Training and model logs
+*.log
